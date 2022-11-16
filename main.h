@@ -233,6 +233,6 @@ void _help_alias(void);
 void _help_cd(void);
 
 /*get_help.c */
-int get_help(data_shell*datash);
+int get_help(data_shell *datash);
 
 #endif
