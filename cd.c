@@ -75,7 +75,7 @@ void cd_to(data_shell *datash)
 	cp_pwd = _strdup(pwd);
 	set_env("OLDPWD", cp_pwd, datash);
 
-	cp_dir = _strdup(dir);
+	cp_dir =_strdup(dir);
 	set_env("PWD", cp_dir, datash);
 
 	free(cp_pwd);
