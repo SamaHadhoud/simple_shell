@@ -12,7 +12,7 @@ int get_len(int n)
 
 	if (n < 0)
 	{
-		lenght++;
+		lenght++ ;
 		n1 = n * -1;
 	}
 	else
