@@ -20,7 +20,8 @@ char *swap_char(char *input, int bool)
 				if (input[i + 1] != '|')
 					input[i] = 16;
 				else
-				i++;
+			
+					i++;
 			}
 
 			if (input[i] == '&')
