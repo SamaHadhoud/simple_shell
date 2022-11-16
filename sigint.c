@@ -7,6 +7,6 @@
 
 void get_sigint(__attribute__((unused))int sig)
 {
-	write(STDOUT_FILENO, "bye:\n", 5);
+	write(STDOUT_FILENO, "\n", 2);
 	exit(1);
 }
